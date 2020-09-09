@@ -1,0 +1,97 @@
+
+$colorDefault: #007944;
+$colorActive: #148856;
+$colorBG: #71a95a;
+$colorBgGray: rgb(245, 245, 245);
+$colorBorder: rgb(173, 173, 173);
+$colorShaddow: #495057;
+
+.mw5{max-width: 5% !important;}
+.mw10{max-width: 10% !important;}
+.mw15{max-width: 15% !important;}
+.mw20{max-width: 20% !important;}
+.mw25{max-width: 25% !important;}
+.mw30{max-width: 30% !important;}
+.mw35{max-width: 35% !important;}
+.mw40{max-width: 40% !important;}
+.mw45{max-width: 45% !important;}
+.mw50{max-width: 50% !important;}
+.mw55{max-width: 55% !important;}
+.mw60{max-width: 60% !important;}
+.mw65{max-width: 65% !important;}
+.mw70{max-width: 70% !important;}
+.mw75{max-width: 75% !important;}
+.mw80{max-width: 80% !important;}
+.mw85{max-width: 85% !important;}
+.mw90{max-width: 90% !important;}
+.mw95{max-width: 95% !important;}
+.mw100{max-width: 100% !important;}
+body{overflow-x: hidden;}
+
+/*********** font size ***********/
+.fontsize-12{font-size: 12px;}
+.fontsize-13{font-size: 13px;}
+.fontsize-14{font-size: 14px;}
+.fontsize-15{font-size: 15px;}
+.fontsize-16{font-size: 16px;}
+.fontsize-17{font-size: 17px;}
+.fontsize-18{font-size: 18px;}
+
+/***********color************/
+.color-1{color:$colorDefault;}
+.color-2{color:$colorActive;}
+.color-3{color:$colorBG;}
+.color-white{color: #fff}
+.color-black{color: #000}
+.color-yellow{color: yellow;}
+.color-red{color: red;}
+.color-blue{color: blue;}
+.bg-gray{background-color:$colorBgGray}
+
+/*Header*/
+.header{background:$colorDefault; z-index: 900;}
+.header span,a{color: #fff}
+.header a:hover{color: #fff;background-color: $colorBG;}
+.pointer:hover{cursor: pointer;}
+.nav-tabs-custom{border-bottom: unset;}
+.nav-tabs-custom .nav-link.active{background-color: $colorBG;}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{background-color: $colorActive !important;}
+.tab-menu-custom{background-color: $colorBG; border-top-left-radius: 5px;border-top-right-radius: 5px;}
+
+/* Content */
+.content{box-shadow: 0px -2px 7px 0px $colorShaddow; padding-top: 1px;}
+
+/* text custom */
+.text-bold{
+    font-weight: 600;
+}
+
+/* button custom */
+.btn-book{background: #1d9d74;color: white;width: 31px;}
+/*==================*/
+/* .form-control {font-size: 13px; } */
+.btn-success:hover .btn:hover{color: unset;}
+.btn-success{background-color: $colorActive !important; }
+.thong-bao{background: unset !important ;padding-left: 8px;border: unset;color: $colorActive !important;font-size: 32px;}
+.thong-bao .badge-light{position: absolute; left: 33px; top: 118px; color: white; border-radius: 50%; background: red;font-size: 12px;}
+.thong-bao svg{width: 30px !important; height: 36px; color:#1d9d74;}
+.flag-stt{position: fixed;right: 0;top:140px;}
+.flag-item{margin-bottom: 5px;background-color: $colorActive;padding-left: 20px;padding-right: 5px;color: white;border-radius:  15px 0 0 15px ;}
+.btn-action{display: flex; justify-content: flex-end;}
+.btn-action-item{margin: 5px 5px 5px 0;}
+.header-panel{color: white; background-color: $colorDefault; padding: 15px 0 15px 0px;margin: 0;}
+.body-panel{margin: 0; margin-bottom: 100px; position: relative;}
+.footer-panel{position: fixed; bottom: 0;width: 55%; background-color: white;border-top: 1px solid $colorBgGray;}
+.page-item { margin: 0 5px 0 5px; }
+.vue-ads-bg-teal-500{background-color: $colorActive;border-radius: 3px;}
+.vue-ads-leading-loose, .vue-ads-page-button{font-size: 1rem;font-weight: 400;}
+.vue-ads-w-6{width: 2rem;font-size: 1rem}
+/* .tableFixHead          { overflow-y: auto; } */
+.tableFixHead thead th { position: sticky; top: 133px }
+.tdFirst{text-align: center;}
+.modal-backdrop{z-index: 999;}
+.modal-content{color: black}
+// .modal-header{color: black}
+// .modal-body{}
+// .modal-footer{}
+// .modal-dialog{z-index: 1000;}
